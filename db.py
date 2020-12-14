@@ -21,7 +21,7 @@ def consultar_registro():
     return lista_registros
 
 def crear_registro(registro: registro ):
-    if registro.id_r in registros:
+    if registro.id_r in registros: 
         return False
     else:
         registros[registro.id_r] = registro
